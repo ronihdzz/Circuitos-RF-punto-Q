@@ -23,6 +23,14 @@ Hasta es momento el repositorio cuenta con los siguientes archivos:
 ### **Video de youtube que explica como usar los jupyter:**
 
 
+<div align="center">
+
+[![Alt text](https://img.youtube.com/vi/r3XNijnI7rI/0.jpg)](https://www.youtube.com/watch?v=r3XNijnI7rI)
+
+</div>
+
+
+
 <hr>
 
 ### **1) Explicacion del contenido del archivo: 'JFET canalN autopolarizacion.ipynb'**
@@ -202,7 +210,7 @@ Es importante mencionar que en el archivo: **'MOSFETincremental_canalN_divisionV
 * Graficando y obteniendo el punto en donde interceptan las graficas.
 
 
-**Observación muy importante a considerar:** En el jupyter los valores de $I_{D_{ON}}$ y  $V_{GS_{ON}}$ son opccionales de poner sin embargo son muy importantes para que el metodo iterativo y grafico funcionen, asi que si no cuentas con dichos valores, recomiendo solo usar el metodo analitico, ya que es probable que los otros dos metodos fallen ya que utilizan como limites los valores: $I_{D_{ON}}$ y  $V_{GS_{ON}}$.
+**Observación muy importante a considerar:** En el jupyter los valores de I_D_ON y  V_GS_ON son opccionales de poner sin embargo son muy importantes para que el metodo iterativo y grafico funcionen, asi que si no cuentas con dichos valores, recomiendo solo usar el metodo analitico, ya que es probable que los otros dos metodos fallen ya que utilizan como limites los valores: I_D_ON y  V_GS_ON.
 
 A continuación se presenta un ejemplo de como obtener el punto de operación a traves de dicho jupyter:
 
@@ -224,7 +232,7 @@ A continuación se presenta un ejemplo de como obtener el punto de operación a 
 
          Para obtener el punto de operación a travez metodo iterativo, unicamente debera irse a la casilla respectiva y sustituir los datos y posteriormente ejecutar dicha casilla.
 
-         **Observación: Solo recomiendo usar este metodo si se cuentan con los valores de: $I_{D_{ON}}$ y  $V_{GS_{ON}}$ ya que si no se cuentan con dichos datos el metodo puede fallar.Para este ejemplo el metodo iterativo obtuvo el punto de operación exitosamente a pesar de que no se contaban con los valores de:$I_{D_{ON}}$ y  $V_{GS_{ON}}$, sin embargo pudo fallar.** 
+         **Observación: Solo recomiendo usar este metodo si se cuentan con los valores de: I_D_ON y  V_GS_ONya que si no se cuentan con dichos datos el metodo puede fallar.Para este ejemplo el metodo iterativo obtuvo el punto de operación exitosamente a pesar de que no se contaban con los valores de:I_D_ON y  V_GS_ON, sin embargo pudo fallar.** 
 
          <div align="center">
          <img  src="recursos_readme/MOSFETincremental_canalN_divisionVoltaje_eje1sol1.gif" style="width:70%;"  />
@@ -242,7 +250,7 @@ A continuación se presenta un ejemplo de como obtener el punto de operación a 
 
          Para obtener el punto de operación a travez metodo iterativo, unicamente debera irse a la casilla respectiva y sustituir los datos.
 
-         **Observación: Solo recomiendo usar este metodo si se cuentan con los valores de: $I_{D_{ON}}$ y  $V_{GS_{ON}}$ ya que si no se cuentan con dichos datos el metodo puede fallar.Para este ejemplo el metodo grafico obtuvo el punto de operación exitosamente a pesar de que no se contaban con los valores de:$I_{D_{ON}}$ y  $V_{GS_{ON}}$, sin embargo pudo fallar.** 
+         **Observación: Solo recomiendo usar este metodo si se cuentan con los valores de: I_D_ON y  V_GS_ON ya que si no se cuentan con dichos datos el metodo puede fallar.Para este ejemplo el metodo grafico obtuvo el punto de operación exitosamente a pesar de que no se contaban con los valores de:I_D_ON y  V_GS_ON, sin embargo pudo fallar.** 
 
          <div align="center">
          <img  src="recursos_readme/MOSFETincremental_canalN_divisionVoltaje_eje1sol3.gif" style="width:70%;"  />
@@ -250,8 +258,8 @@ A continuación se presenta un ejemplo de como obtener el punto de operación a 
 
       * **Observación:**
 
-         Como se puede observar los tres metodos nos dieron resultados casi identicos, sin embargo yo recomiendo  mas al metodo analitico, y lo recomiendo aun mas, cuando NO SE CUENTE CON los valores de: $I_{D_{ON}}$ y $V_{GS_{ON}}$ y solo se cuente con el valor de $K$, ya que si no se cuentan con los valores $I_{D_{ON}}$ y  $V_{GS_{ON}}$, los otros metodos(iterativo,grafico) pueden fallar.
-         Para este ejemplo en particular los 3 metodos obtuvieron el punto de operación de forma exitosa, sin embargo como no se contaba con el valor de $I_{D_{ON}}$ y  $V_{GS_{ON}}$ pudieron fallar el metodo iterativo y grafico, aunque para este ejemplo no fallaron.
+         Como se puede observar los tres metodos nos dieron resultados casi identicos, sin embargo yo recomiendo  mas al metodo analitico, y lo recomiendo aun mas, cuando NO SE CUENTE CON los valores de: I_D_ON y  V_GS_ON y solo se cuente con el valor de K, ya que si no se cuentan con los valores I_D_ON y  V_GS_ON, los otros metodos(iterativo,grafico) pueden fallar.
+         Para este ejemplo en particular los 3 metodos obtuvieron el punto de operación de forma exitosa, sin embargo como no se contaba con el valor de I_D_ON y  V_GS_ON pudieron fallar el metodo iterativo y grafico, aunque para este ejemplo no fallaron.
 
          <div align="center">
          <img  src="recursos_readme/MOSFETincremental_canalN_divisionVoltaje_eje1solTodos.png" style="width:100%;"  />
@@ -303,5 +311,5 @@ Es importante mencionar que en el archivo: **'MOSFETincremental_canalN_divisionV
          Para obtener el punto de operación a travez del metodo analitico primero debera ejecutarse la casilla que contiene la programación respectiva para resolver ecuaciones de segundo grado, y despues ya podran llenarse los datos de la casilla que obtiene el punto de operación Q atravez del metodo analitico y posteriormente ejecutar dicha casilla
 
          <div align="center">
-         <img  src="recursos_readme/MOSFETdec" style="width:70%;"  />
+         <img  src="recursos_readme/MOSFETdecremental_canalN_divisionVoltaje_eje1sol2.gif" style="width:70%;"  />
          </div>
